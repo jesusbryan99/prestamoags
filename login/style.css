@@ -72,3 +72,16 @@ body {
     font-size: 18px;
     padding: 8px 30px;
 }
+
+@media only screen and (max-width: 780px) {
+    .left-form {
+        display: none;
+    }
+    .right-form {
+        width: 100%;
+    }
+    .right-form form {
+        width: 95%;
+        padding: 1em;
+    }
+}
